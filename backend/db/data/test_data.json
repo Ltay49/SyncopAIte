@@ -1,0 +1,136 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=dEsNw-sr9Ws",
+        "artist": "Billy Cobham",
+        "channel": "Montreux Jazz Festival Archive",
+        "title": "Billy Cobham - Drums (Montreux 1974, session 1 of 2)"
+      },
+      {
+        "id": 2,
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=5DyC02BM_P4",
+        "artist": "Bernard Purdie",
+        "channel": "DrummerWorld",
+        "title": "Bernard ‘Pretty’ Purdie – The Legendary Purdie Shuffle"
+      },
+      {
+        "id": 3,
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=4umUvQ3j-L0",
+        "artist": "Billy Cobham",
+        "channel": "Jazz Archives",
+        "title": "Billy Cobham Solo's on Drums at Montreux Jazz Festival 1976"
+      },
+      {
+        "id": 4,
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=3WHVwbYfdJw",
+        "artist": "Bernard Purdie",
+        "channel": "Live Drumming Series",
+        "title": "Bernard Purdie: Live in London (2024)"
+      },
+      {
+        "id": 5,
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=zkNJ9sfRAkY",
+        "artist": "Billy Cobham",
+        "channel": "Jazz Festival Classics",
+        "title": "Billy Cobham Taurian Matador Live 1974 [HQ Audio]"
+      }
+    ],
+    "annotations": [
+      {
+        "video_id": 1,
+        "why_new": "Rare Montreux footage showing Cobham’s raw power.",
+        "listen_for": "Gravity-driven tom rhythms and thunderous kick patterns.",
+        "groove": "Fusion swing with tight backbeat comping.",
+        "moments": [
+          { "t": "0:40", "note": "Opening rapid tom roll" },
+          { "t": "2:15", "note": "Dynamic double kick flares" }
+        ],
+        "practice": [
+          "Loop the opening tom motif for 2 minutes at 100 BPM",
+          "Work on fast double kick burst consistency"
+        ],
+        "model_version": "gpt-4o"
+      },
+      {
+        "video_id": 2,
+        "why_new": "Deep dive into the Purdie shuffle; iconic groove demonstration.",
+        "listen_for": "Ghosted snare notes beneath the swing feel.",
+        "groove": "Half-time funk shuffle with subtle micro-timing variations.",
+        "moments": [
+          { "t": "1:05", "note": "Solid shuffle groove entry" },
+          { "t": "2:30", "note": "Syncopated backbeat fill" }
+        ],
+        "practice": [
+          "Practice shuffle ghost note control at 80 BPM",
+          "Add one fill every 8 bars in the same pattern"
+        ],
+        "model_version": "gpt-4o"
+      },
+      {
+        "video_id": 3,
+        "why_new": "A live Cobham solo packed with energy and polyrhythms.",
+        "listen_for": "Hand and foot separation during fast passages.",
+        "groove": "Loose 4/4 groove overlaid with triplet fills.",
+        "moments": [
+          { "t": "1:20", "note": "Ride cymbal triplet push" },
+          { "t": "3:45", "note": "Tom-stick combination surge" }
+        ],
+        "practice": [
+          "Isolate ride triplets, then add a tom backbeat",
+          "Play the combo idea at 90 BPM looped"
+        ],
+        "model_version": "gpt-4o"
+      },
+      {
+        "video_id": 4,
+        "why_new": "Recent live performance—still grooving with soul.",
+        "listen_for": "Tight hi-hat feel with pocketed snare hits.",
+        "groove": "Warm funk groove, unforced and confident.",
+        "moments": [
+          { "t": "0:50", "note": "Mid-ride groove starts" },
+          { "t": "2:10", "note": "Hi-hat groove shift" }
+        ],
+        "practice": [
+          "Match hi-hat feel in your own groove at 85 BPM",
+          "Add subtle snare ghost notes in triplets"
+        ],
+        "model_version": "gpt-4o"
+      },
+      {
+        "video_id": 5,
+        "why_new": "Rare HQ audio of Cobham’s 'Taurian Matador' in a live setting.",
+        "listen_for": "Subtle ride bounce with hip jazz phrasing.",
+        "groove": "Fusion groove with jazz dynamics.",
+        "moments": [
+          { "t": "0:30", "note": "Ride bounce phrasing starts" },
+          { "t": "4:00", "note": "Full ensemble breakdown moment" }
+        ],
+        "practice": [
+          "Copy the ride phrasing for 16 bars slowly",
+          "Experiment with dynamic changes in your groove"
+        ],
+        "model_version": "gpt-4o"
+      }
+    ],
+    "tags": [
+      { "id": 1, "name": "Jazz" },
+      { "id": 2, "name": "Live" },
+      { "id": 3, "name": "Fusion" }
+    ],
+    "video_tags": [
+      { "video_id": 1, "tag_id": 1 },
+      { "video_id": 1, "tag_id": 2 },
+      { "video_id": 2, "tag_id": 3 },
+      { "video_id": 3, "tag_id": 3 },
+      { "video_id": 4, "tag_id": 1 },
+      { "video_id": 5, "tag_id": 2 },
+      { "video_id": 5, "tag_id": 3 }
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "seed": "NODE_ENV=development node ./db/seeds/run-seed.js",
+    "db:setup": "node ./db/seeds/run-seed.js",
+    "seed:dev": "NODE_ENV=development node ./db/seeds/seed.js",
+    "seed:test": "NODE_ENV=test node ./db/seeds/seed.js",
+    "dev": "nodemon server.js",
+    "test": "NODE_ENV=test jest --detectOpenHandles --forceExit"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}

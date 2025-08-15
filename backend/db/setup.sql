@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS syncopAIte_test; 
+DROP DATABASE IF EXISTS syncopAIte; 
+
+CREATE DATABASE syncopAIte_test; 
+CREATE DATABASE syncopAIte;
